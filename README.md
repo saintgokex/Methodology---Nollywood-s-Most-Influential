@@ -11,9 +11,11 @@ So, buckle up! We're about to take you behind the scenes of our data journey and
 ### Data Gathering
 
 **1. List of Highest Grossing Nigerian Films:** Utilized web scraping techniques with BeautifulSoup to extract data from a Wikipedia table consisting of 111 rows. The table provides crucial information on the highest-grossing Nigerian films, forming the foundation of our analysis.
+![](https://github.com/saintgokex/Methodology---Nollywood-s-Most-Influential/blob/20e10f4f846dfd197249e9cf9f45cc8490da8a4d/nollywood%20-%20py.png)
 
 **2. Research on Top 20 Richest Actors:**
 Conducted research to compile data on the top 20 richest actors in Nollywood, including their net worth and career start year. This information offers insights into the financial standing and longevity of prominent actors within the industry.
+
 
 **3. Social Media Following on Instagram:**
 Gathered data on social media following, specifically on Instagram, for the actors under review. This metric serves as an indicator of each actor's digital influence and audience engagement.
@@ -24,13 +26,18 @@ Gathered data on social media following, specifically on Instagram, for the acto
 - Removed special characters surrounding domestic gross figures in the "Domestic Gross" column to ensure consistency and accuracy.
 - Split entries in the "Director(s)" column to isolate individual directors for proper aggregation.
 - Duplicated movies with multiple directors to ensure each row corresponds to a single director, facilitating accurate analysis.
+![](https://github.com/saintgokex/Methodology---Nollywood-s-Most-Influential/blob/20e10f4f846dfd197249e9cf9f45cc8490da8a4d/dirty%20data%20view.png)    ![](https://github.com/saintgokex/Methodology---Nollywood-s-Most-Influential/blob/20e10f4f846dfd197249e9cf9f45cc8490da8a4d/clean%20data%20view.png)
   
 **2. Net Worth Table:**
 - Eliminated "M" from social media follower counts to standardize the format.
 - Converted social media follower counts from decimal numbers to actual values in millions for ease of interpretation.
-  
+
+  ![](https://github.com/saintgokex/Methodology---Nollywood-s-Most-Influential/blob/20e10f4f846dfd197249e9cf9f45cc8490da8a4d/net%20worth.png)
+  ![](https://github.com/saintgokex/Methodology---Nollywood-s-Most-Influential/blob/20e10f4f846dfd197249e9cf9f45cc8490da8a4d/net%20worth%20-%20clean.png)
 **3. Awards Table:**
 - Filled down actors' names to ensure consistency and completeness across the dataset.
+  ![](https://github.com/saintgokex/Methodology---Nollywood-s-Most-Influential/blob/20e10f4f846dfd197249e9cf9f45cc8490da8a4d/amvca%20awards.png)
+  ![](https://github.com/saintgokex/Methodology---Nollywood-s-Most-Influential/blob/20e10f4f846dfd197249e9cf9f45cc8490da8a4d/amvca%20awards%20cleaned.png)
 
 ### Data Visualization
 
